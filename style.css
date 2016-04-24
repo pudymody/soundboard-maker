@@ -1,0 +1,20 @@
+.drop__container {
+	padding: 10px;
+	border-radius: 5px;
+	border: 3px dashed #555;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: x-large;
+	font-family: sans-serif;
+	background: #fff;
+	transition: 1s background, border-color, color;
+}
+
+.drop__container--success {
+	background: #2ECC40;
+	border-color: #3D9970;
+	color: #fff;
+}
